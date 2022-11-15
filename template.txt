@@ -1,0 +1,25 @@
+Grant Access
+--------------------------------------------------------
+Employee Summary:
+
+Employee ID: 
+Full Name: 
+Contractor: 
+Employee Level: 
+Department: 
+Remote: 
+Lateral Transfer, Change of Position, or Promotion: 
+Revoke Access: 
+
+--------------------------------------------------------
+Access Summary:
+
+
+
+
+
+--------------------------------------------------------
+Login Credentials:
+
+Username: 
+Temporary Password: KOAqCJUQTJ

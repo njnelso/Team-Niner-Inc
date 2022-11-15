@@ -1,0 +1,25 @@
+Grant Access
+--------------------------------------------------------
+Employee Summary:
+
+Employee ID: 158752
+Full Name: Joe Mama
+Contractor: No
+Employee Level: Supervisor
+Department: Information Technology
+Remote: Yes
+Lateral Transfer, Change of Position, or Promotion: No
+Revoke Access: No
+
+--------------------------------------------------------
+Access Summary:
+
+Access Category: Normal
+Physical Access: Common Areas, IT Department, Supervised Section
+File Directory Access: /IT/ITadmin
+VPN Access Required: Yes
+--------------------------------------------------------
+Login Credentials:
+
+Username: J158752
+Temporary Password: zFkCssuPrc752

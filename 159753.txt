@@ -1,0 +1,25 @@
+Grant Access
+--------------------------------------------------------
+Employee Summary:
+
+Employee ID: 159753
+Full Name: Joe Snuffy
+Contractor: No
+Employee Level: Employee
+Department: Human Resources
+Remote: Yes
+Lateral Transfer, Change of Position, or Promotion: No
+Revoke Access: No
+
+--------------------------------------------------------
+Access Summary:
+
+Access Category: Normal
+Physical Access: Common Areas, HR Department
+File Directory Access: /HR/SectionA/Employee Data
+VPN Access Required: Yes
+--------------------------------------------------------
+Login Credentials:
+
+Username: J159753
+Temporary Password: eMwhbxaxvC753
