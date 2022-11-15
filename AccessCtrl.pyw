@@ -10,17 +10,17 @@ layout = [
 	[sg.Text('Employee ID', size =(15, 1)), sg.InputText()],
 	[sg.Text('Full Name', size =(15, 1)), sg.InputText()],
 	[sg.Text('Contractor',size=(15, 1), font='Lucida',justification='left')],
-    [sg.Combo(['Yes','No'],key='con')],
-    [sg.Text('Employee Level',size=(15, 1), font='Lucida',justification='left')],
-    [sg.Combo(['Non-Employee','Employee','Supervisor', 'Manager','Executive'],key='lev')],
+    	[sg.Combo(['Yes','No'],key='con')],
+    	[sg.Text('Employee Level',size=(15, 1), font='Lucida',justification='left')],
+    	[sg.Combo(['Non-Employee','Employee','Supervisor', 'Manager','Executive'],key='lev')],
 	[sg.Text('Department',size=(15, 1), font='Lucida',justification='left')],
-    [sg.Combo(['Supply','Human Resources','Information Technology', 'Executive'],key='dep')],
+    	[sg.Combo(['Supply','Human Resources','Information Technology', 'Executive'],key='dep')],
 	[sg.Text('Remote Job',size=(15, 1), font='Lucida',justification='left')],
-    [sg.Combo(['Yes','No'],key='rem')],
-    [sg.Text('Transfer, Change of Job, or Promotion',size=(30, 1), font='Lucida',justification='left')],
-    [sg.Combo(['Yes','No'],key='tra')],
+    	[sg.Combo(['Yes','No'],key='rem')],
+    	[sg.Text('Transfer, Change of Job, or Promotion',size=(30, 1), font='Lucida',justification='left')],
+    	[sg.Combo(['Yes','No'],key='tra')],
 	[sg.Text('Revoke Access',size=(15, 1), font='Lucida',justification='left')],
-    [sg.Combo(['Yes','No'],key='rev')],
+	[sg.Combo(['Yes','No'],key='rev')],
 	[sg.Submit('Submit'), sg.Cancel('Exit')]
 ]
 # GUI Behavior
@@ -116,7 +116,7 @@ x = ''.join(random.choice(letters) for i in range(10))
 
 # File Output for new/change in access
 if access_var == "Grant Access" or access_var == "Change Access":
-    with open("C:/Users/nicho/OneDrive/Documents/Access Ctrl/"+id_number+'.txt', 'w') as f:
+    with open("C:/Users/nicho/OneDrive/Documents/Access Ctrl/"+id_number+'.txt', 'w') as f: # Change this filepath to the location where you want the files to output to
         f.write(access_var + '\n' + '--------------------------------------------------------' + '\n' +
             "Employee Summary:" + '\n' + '\n' +
             "Employee ID: " + values[0] + '\n' +
@@ -140,7 +140,7 @@ if access_var == "Grant Access" or access_var == "Change Access":
 
 # File output for removing accesses        
 elif access_var == "Revoke Access":
-    with open("C:/Users/nicho/OneDrive/Documents/Access Ctrl/"+id_number+'.txt', 'w') as f:
+    with open("C:/Users/nicho/OneDrive/Documents/Access Ctrl/"+id_number+'.txt', 'w') as f: # Change this filepath before 'id_number'
         f.write(access_var + '\n' + '--------------------------------------------------------' + '\n' +
             "Employee ID: " + values[0] + '\n' +
             "Full Name: " + values[1] + '\n' +
