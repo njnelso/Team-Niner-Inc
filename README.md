@@ -7,9 +7,11 @@ Broken Access Control has been ranked as the number one OWASP Top 10 security ri
 ### Python
 This project starts with the python script [AccessCtrl.pyw](https://github.com/njnelso/Team-Niner-Inc/blob/main/AccessCtrl.pyw)
 
-Using PySimpleGUI, we built a GUI with User Inputs and dropdown menus to fill out an employee's information.
+Using PySimpleGUI, we built a GUI with User Inputs and dropdown menus to fill out an employee's information. The extension .pyw allows the script to run from the desktop without needing a console. Simply double click to open the GUI.
 
 ![alt text](https://github.com/njnelso/Team-Niner-Inc/blob/main/Pic1.png?raw=true)
+
+Example of a form filled out
 
 ![alt text](https://github.com/njnelso/Team-Niner-Inc/blob/main/Pic2.png?raw=true)
 
