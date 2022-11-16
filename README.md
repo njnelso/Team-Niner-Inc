@@ -20,6 +20,7 @@ The other inputs are being called in a series of 'If' statements to determine th
 
 ![alt text](https://github.com/njnelso/Team-Niner-Inc/blob/main/Pic5.png?raw=true)
 
+### Text Output
 The title of the text file is determined based off what the last two dropdown menu items are set to. If this is a new employee, 'Grant Access' will be listed at the top. If there is an internal change in position or promotion, the new job might include new access granted based off job scope. Finally, 'Revoke Access' is listed if the employee is terminated. In this case, the employee summary section will be the only thing listed, while the accesses are removed in the process.
 
 You can specify the filepath in the final section of the python script where it outputs the text file. You could set a shared drive for the team that performs Onboarding/Employee Indoc or whatever your process is called.
