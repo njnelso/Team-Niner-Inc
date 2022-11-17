@@ -2,7 +2,7 @@
 Capstone Project for Fullstack Academy Cybersecurity Bootcamp (Fettuccine)
 
 ## Summary
-Broken Access Control has been ranked as the number one OWASP Top 10 security risk and the goal of this project is to reduce unauthorized access to information. We created a python script that uses a GUI to gather information about an employee and generate a summary of accesses granted based off the department and scope of their job.
+Broken Access Control has been ranked as the number one OWASP Top 10 security risk and the goal of this project is to reduce unauthorized access to information. We created a python script that uses a GUI to gather information about an employee and generate a summary of accesses granted based off the department and scope of their job. The File Integrity Monitor or FIM uses powershell to monitor the employee access files generated and alerts when changes have been made to the file.
 
 ### Python
 This project starts with the python script [AccessCtrl.pyw](https://github.com/njnelso/Team-Niner-Inc/blob/main/AccessCtrl.pyw)
